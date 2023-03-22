@@ -9,7 +9,7 @@ class AppDelegate: NSObject, UIApplicationDelegate, UNUserNotificationCenterDele
     UNUserNotificationCenter.current().requestAuthorization(options: [.alert, .badge, .sound]) { (granted, error) in
       print("granted: (\(granted)")
     }
-    
+    //HELLO
     UIApplication.shared.registerForRemoteNotifications()
     return true
   }
